@@ -11,7 +11,6 @@ jQuery(function($) {'use strict',
 		});
 	
 
-	
 	//Scroll Menu
 
 	function menuToggle()
