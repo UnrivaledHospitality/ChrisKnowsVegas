@@ -86,19 +86,19 @@ h2 {
 }
 
 .social-icons .fa-facebook:hover {
-  color: #3B5997
+  color: #D13D2F
 }
 
 .social-icons .fa-twitter:hover {
-  color:#29C5F6
+  color:#D13D2F
 }
 
-.social-icons .fa-google-plus:hover {
+.social-icons .fa-instagram:hover {
   color:#D13D2F
 }
 
 .social-icons .fa-youtube:hover{
-  color: #ec5538
+  color: #D13D2F
 }
 
 .navbar-brand {
@@ -254,15 +254,16 @@ h2 {
 *******Explore CSS******
 **************************/
 
-#explore {
-  background-color: #C34C39;
-  background-image: url("../images/event-bg.jpg");
-  background-position: center bottom;
-  background-size: contain;
-  background-repeat:no-repeat;
-  position: relative;
-  overflow: hidden;
-  padding: 130px 0 100px;
+#explore
+{
+    background-color: #C34C39;
+    background-image: url("../images/event-bg.jpg");
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    padding: 130px 0 400px 0;
 }
 
 .watch {
@@ -391,19 +392,22 @@ h2 {
  /*************************
 *******Event CSS******
 **************************/
-#event {
-  background-color: #33888F;
-  background-image: url("../images/performar-bg.jpg");
-  background-position: 50% 0;
-  background-size: contain;
-  position: relative;
-  background-repeat: no-repeat;
+#event
+{
+    /*background-color: #1881a2;*/
+    background-color: #1881a2; /*background-image: url("../images/performar-bg.jpg");*/
+    background-position: 50% 0;
+    background-size: contain;
+    position: relative;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
 }
 
-.guitar {
-  position: absolute;
-  right:0;
-  top: 0
+.guitar
+{
+    position: absolute;
+    left: 0;
+    margin-top: 50px;    
 }
 
 
@@ -412,7 +416,7 @@ h2 {
   font-size: 36px;
   font-weight: 300;
   margin-bottom: 40px;
-  margin-top: 70px;
+  margin-top: 50px;
   text-transform: uppercase;
 }
 
@@ -438,6 +442,7 @@ h2 {
 
 #event-carousel {
   position: relative;
+  background:0px;
 }
 
 .even-control-left, 
@@ -462,7 +467,8 @@ h2 {
 **************************/
 
 #about {
-  background-color: #75B46E;  
+  /*background-color: #75B46E;*/  
+  background-color: #000000;
   position: relative;  
   width: 100%;
   display: flex;
@@ -474,16 +480,17 @@ h2 {
 }
 
 .guitar2 img {
-  padding-top: 3%;
+  padding-top: 5%;
+  padding-bottom: 4%;
 }
 
-.about-content {
-  width: 50%;
-   background-image: url("../images/about-bg.jpg");
-  background-position: left bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 70px 70px 110px;
+.about-content
+{
+    width: 50%; /*background-image: url("../images/about-bg.jpg");*/
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 70px 110px 70px;
 }
 
 
@@ -510,19 +517,105 @@ h2 {
 
 
 
+
+/*************************
+******Sponsor CSS****
+**************************/
+
+#sponsor {
+  /*background-color: #1881a2;*/
+  background-color: white;  
+  /*background-image: url("../images/sponsor-bg.jpg");*/
+  background-position:50% 0;
+  background-size: cover;
+  background-repeat:no-repeat;
+  position: relative;
+}
+
+.light {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#sponsor .col-sm-10 {
+  z-index: 10;
+}
+
+#sponsor h2
+{
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 48px;
+    /*font-weight: bold;*/
+}
+
+#sponsor .item ul {
+  font-size: 0;
+  padding: 0;
+}
+
+
+#sponsor .item ul li {
+  display: inline-block;
+  list-style: none;
+  width: 33.33%;
+  margin-bottom: 75px;
+  padding-right: 60px;
+}
+
+#sponsor .item ul li:last-child {
+  margin-right: 0
+}
+
+.sponsor-control-left, .sponsor-control-right
+{
+    /*color: #FFFFFF;*/
+    color: #00c3ff;
+    font-size: 36px;
+    position: absolute;
+    top: 30px;
+}
+
+.sponsor-control-left {
+  right: 14%
+}
+
+.sponsor-control-right
+{
+    right: 10%;
+}
+
+
+/*************************
+******Map CSS****
+**************************/
+#map {
+  position: relative;
+}
+
+#gmap {
+  height:450px;  
+}
+
+
+
+
 /*************************
 ******Twitter CSS****
 **************************/
 
-#twitter {
-  background-color: #ecedef;
-  background-image: url("../images/twitter-bg.jpg");
-  background-position: center bottom;
-  background-size: cover;
-  background-repeat:no-repeat;
-  position: relative;
-  padding: 95px 0 90px;
-  overflow: hidden;
+#twitter
+{
+    background-color: #ecedef;
+    background-image: url("../images/twitter-bg2.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 150px 0 150px 0;
+    overflow: hidden;
 }
 
 .twit {
@@ -579,80 +672,6 @@ h2 {
 
 
 /*************************
-******Sponsor CSS****
-**************************/
-
-#sponsor {
-  background-color: #1881a2;
-  background-image: url("../images/sponsor-bg.jpg");
-  background-position:50% 0;
-  background-size: cover;
-  background-repeat:no-repeat;
-  position: relative;
-}
-
-.light {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-
-#sponsor .col-sm-10 {
-  z-index: 10;
-}
-
-#sponsor h2 {
-  margin-top: 90px;
-  margin-bottom: 40px;
-}
-
-#sponsor .item ul {
-  font-size: 0;
-  padding: 0;
-}
-
-
-#sponsor .item ul li {
-  display: inline-block;
-  list-style: none;
-  width: 33.33%;
-  margin-bottom: 75px;
-}
-
-#sponsor .item ul li:last-child {
-  margin-right: 0
-}
-
-.sponsor-control-left, 
-.sponsor-control-right {
-  color: #FFFFFF;
-  font-size: 24px;
-  position: absolute;
-  top: 20%;
-}
-
-.sponsor-control-left {
-  right: 12%
-}
-
-.sponsor-control-right {
-  right: 10%
-}
-
-
-/*************************
-******Map CSS****
-**************************/
-#map {
-  position: relative;
-}
-
-#gmap {
-  height:450px;  
-}
-
-
-/*************************
 ******Contact CSS****
 **************************/
 
@@ -667,12 +686,13 @@ h2 {
 
 .ear-piece {
   position: absolute;
-  left: 0;
+  right: 0;
   top: 0;
 }
 
 #contact .container {
   padding-top:47px;
+  padding-bottom:243px;
 }
 
 #contact h3 {
@@ -756,5 +776,4 @@ h2 {
 #footer a:hover {
   color:#1B7B98
 }
-
 
