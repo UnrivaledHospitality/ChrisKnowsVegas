@@ -841,11 +841,13 @@ h2 {
   color: #FFFFFF;
   font-size: 20px;
   padding: 35px 0;
+  font-weight:normal;
 }
 
 #footer a {
   color:#f7ab24;
   /*color:white;*/
+  font-weight:normal;
 }
 
 #footer a:hover {
